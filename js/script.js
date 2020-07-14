@@ -3,7 +3,7 @@
 window.addEventListener("load", function() {
     document.querySelector(".preloader").classList.add("opacity-0");
 
-    // clear();
+    clear();
 
     setTimeout( function() {
         document.querySelector(".preloader").style.display="none";
@@ -247,10 +247,10 @@ function moveUp() {
 
         setTimeout(function() { 
     
-            let url = window.location.href;
-            let new_url = url.split("#")[0]+"#home";
+            // let url = window.location.href;
+            // let new_url = url.split("#")[0]+"#home";
     
-            window.location = new_url;
+            // window.location = new_url;
             // document.location.reload(true);
         }, 3000);
         
