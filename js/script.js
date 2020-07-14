@@ -243,22 +243,22 @@ function validateFields() {
 
 function moveUp() {
 
-    // if (validateFields()) {
+    if (validateFields()) {
 
-    //     setTimeout(function() { 
+        setTimeout(function() { 
     
-    //         let url = window.location.href;
-    //         let new_url = url.split("#")[0]+"#home";
+            let url = window.location.href;
+            let new_url = url.split("#")[0]+"#home";
     
-    //         window.location = new_url;
-    //         document.location.reload(true);
-    //     }, 3000);
+            window.location = new_url;
+            document.location.reload(true);
+        }, 3000);
         
-    //     setTimeout(function() { 
-    //         document.querySelector(".confirm_msg").innerHTML = "Thanks for Submitting!!";
-    //     }, 1000);
+        setTimeout(function() { 
+            document.querySelector(".confirm_msg").innerHTML = "Thanks for Submitting!!";
+        }, 1000);
         
-    // } 
+    } 
 }
 
 
