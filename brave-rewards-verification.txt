@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: ppranesh.netlify.app
-Token: 3dadecc57b4a05edc4800a374d98d4d5a91d0f8d8a00d63957f5cc8bb9d1fa5e
